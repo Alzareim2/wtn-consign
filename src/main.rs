@@ -106,7 +106,7 @@ async fn main() -> Result<(), Box<dyn Error>> {
                                             });
             
                                       
-                                            let webhook_url = "https://discord.com/api/webhooks/1142108063030059049/3QGO7M5LzXCpvezHmBMdSkhTqAidfA2ZafwjUfUkuG1SSyLUGN462tnmVpwFdKFfff1I";
+                                            let webhook_url = "webhook";
                                             let client = reqwest::Client::new();
                                             let res = client.post(webhook_url)
                                                 .json(&webhook_content)
